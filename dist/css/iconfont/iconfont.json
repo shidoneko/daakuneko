@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2369346",
+      "name": "√",
+      "font_class": "icon-test",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2760460",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e527",
+      "unicode_decimal": 58663
+    },
+    {
+      "icon_id": "5223421",
+      "name": "支付宝",
+      "font_class": "zhifubao2",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "5676162",
+      "name": "双引号",
+      "font_class": "shuangyinhao",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "6727427",
+      "name": "花呗",
+      "font_class": "huabei",
+      "unicode": "e513",
+      "unicode_decimal": 58643
+    },
+    {
+      "icon_id": "7584063",
+      "name": "叹号",
+      "font_class": "tanhao",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "7853028",
+      "name": "左箭头",
+      "font_class": "xiangyou1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8312316",
+      "name": "支付-微信支付",
+      "font_class": "weixinzhifu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9414603",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "10476473",
+      "name": "银联支付",
+      "font_class": "yinlianzhifu",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "14589336",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "17789885",
+      "name": "双引号",
+      "font_class": "shuangyinhao1",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    }
+  ]
+}

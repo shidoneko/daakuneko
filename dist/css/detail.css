@@ -1,0 +1,1247 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block; }
+
+img {
+  display: block; }
+
+fieldset, img {
+  border: none; }
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+a:visited {
+  color: #666; }
+
+a:hover, a:active, a:focus {
+  color: #00a8ff;
+  text-decoration: none; }
+
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+  zoom: 1; }
+
+html, body {
+  width: 100%; }
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, fieldset, form, input, select, textarea, button, figure {
+  margin: 0; }
+
+i, em, b, strong {
+  font-weight: normal;
+  font-style: normal; }
+
+span {
+  display: inline-block; }
+
+input, button {
+  outline: 0; }
+
+#headerBox #header {
+  margin: 0 auto; }
+  #headerBox #header .top {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    overflow: hidden;
+    background-color: #f2f2f2; }
+    #headerBox #header .top .adv {
+      width: 1920px;
+      display: block;
+      height: 120px;
+      position: relative;
+      top: 0;
+      left: 50%;
+      margin-left: -960px; }
+    #headerBox #header .top .button {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: 10px;
+      right: 12px; }
+  #headerBox #header .center {
+    background-color: #404040;
+    height: 40px;
+    width: 100%; }
+    #headerBox #header .center .flex {
+      margin: 0 auto;
+      width: 1226px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
+      #headerBox #header .center .flex a {
+        color: #b2b2b2;
+        font-size: 14px; }
+      #headerBox #header .center .flex a:hover {
+        color: white; }
+      #headerBox #header .center .flex div {
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        display: flex;
+        width: 400px;
+        justify-content: space-between; }
+        #headerBox #header .center .flex div a {
+          margin: 0 10px 0 10px; }
+      #headerBox #header .center .flex ul {
+        height: 40px;
+        line-height: 40px;
+        width: 422px;
+        color: #b2b2b2;
+        display: flex;
+        justify-content: space-between; }
+        #headerBox #header .center .flex ul .firstli {
+          padding: 0 10px 0 10px;
+          margin-left: 10px; }
+          #headerBox #header .center .flex ul .firstli a {
+            margin: 0 10px 0 10px;
+            position: relative; }
+            #headerBox #header .center .flex ul .firstli a div {
+              background-color: #ef430c;
+              color: #fff;
+              padding: 0 12px;
+              position: absolute;
+              bottom: -22px;
+              left: 50%;
+              border-radius: 3px;
+              z-index: 99;
+              height: 26px;
+              line-height: 26px;
+              text-align: center;
+              font-size: 14px;
+              white-space: nowrap;
+              width: 84px;
+              transform: translateX(-50%); }
+            #headerBox #header .center .flex ul .firstli a div::before {
+              content: '';
+              width: 0;
+              height: 0;
+              border: 6px solid transparent;
+              border-top-color: #ef430c;
+              position: absolute;
+              left: 50%;
+              top: 1px;
+              transform: rotate(180deg);
+              margin-top: -12px;
+              margin-left: -6px; }
+        #headerBox #header .center .flex ul .lastli {
+          background-color: #4c4c4c;
+          padding-left: 10px; }
+          #headerBox #header .center .flex ul .lastli a:hover {
+            color: #b2b2b2; }
+        #headerBox #header .center .flex ul li {
+          float: left; }
+          #headerBox #header .center .flex ul li i {
+            width: 25px;
+            height: 25px;
+            display: block;
+            overflow: hidden;
+            margin-top: 7px;
+            float: left; }
+            #headerBox #header .center .flex ul li i img {
+              display: block; }
+          #headerBox #header .center .flex ul li span {
+            float: left; }
+          #headerBox #header .center .flex ul li a {
+            display: inline-block;
+            height: 100%; }
+  #headerBox #header .bottom {
+    width: 1226px;
+    margin: 0 auto;
+    padding-top: 23px;
+    display: flex; }
+    #headerBox #header .bottom .logo {
+      width: 234px;
+      height: 77px;
+      display: flex;
+      justify-content: space-between; }
+      #headerBox #header .bottom .logo a {
+        height: 60px; }
+        #headerBox #header .bottom .logo a img {
+          height: 60px; }
+    #headerBox #header .bottom .nav {
+      width: 570px;
+      height: 57px;
+      display: flex;
+      padding: 10px 0 10px 0; }
+      #headerBox #header .bottom .nav a {
+        padding: 14px 20px 37px 20px;
+        font-size: 14px; }
+      #headerBox #header .bottom .nav a:hover {
+        color: #35abf2; }
+    #headerBox #header .bottom .serch {
+      width: 442px;
+      height: 77px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      #headerBox #header .bottom .serch .up form {
+        display: flex;
+        position: relative; }
+        #headerBox #header .bottom .serch .up form input {
+          width: 300px;
+          height: 36px;
+          padding-left: 4px;
+          border: 1px solid #a29e9f;
+          border-right: none;
+          font-size: 16px;
+          color: #fff; }
+        #headerBox #header .bottom .serch .up form div {
+          position: absolute;
+          top: 9px;
+          right: 42px; }
+          #headerBox #header .bottom .serch .up form div a {
+            float: left;
+            margin: 0 4px 0 4px;
+            padding: 0 10px 0 10px;
+            background-color: #d9d9d9;
+            border-radius: 5px;
+            height: 22px;
+            line-height: 22px;
+            color: #353535;
+            font-size: 12px; }
+          #headerBox #header .bottom .serch .up form div a:hover {
+            color: white;
+            background-color: #35abf2; }
+        #headerBox #header .bottom .serch .up form button {
+          width: 40px;
+          height: 40px;
+          border: 1px solid #a29e9f;
+          background-color: #fff;
+          padding: 0; }
+          #headerBox #header .bottom .serch .up form button a {
+            display: block;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            #headerBox #header .bottom .serch .up form button a .iconfont {
+              font-size: 20px;
+              color: #a0a0a0; }
+        #headerBox #header .bottom .serch .up form button:hover {
+          background-color: #35abf2; }
+          #headerBox #header .bottom .serch .up form button:hover .iconfont {
+            color: white; }
+      #headerBox #header .bottom .serch .down {
+        width: 348px;
+        margin-top: 5px; }
+        #headerBox #header .bottom .serch .down a {
+          font-size: 14px;
+          line-height: 22px;
+          margin-right: 10px; }
+        #headerBox #header .bottom .serch .down a:hover {
+          color: #35abf2; }
+        #headerBox #header .bottom .serch .down .firsta {
+          color: #35abf2; }
+
+#bodybox #body .page {
+  width: 1226px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 29px;
+  margin-top: 17px;
+  height: 30px; }
+  #bodybox #body .page span {
+    display: inline-block;
+    vertical-align: top; }
+    #bodybox #body .page span a {
+      color: #333; }
+    #bodybox #body .page span .now {
+      color: #666; }
+
+#bodybox #body .section .detail {
+  width: 1226px;
+  margin: 0 auto; }
+  #bodybox #body .section .detail .information .img {
+    width: 500px;
+    float: left; }
+    #bodybox #body .section .detail .information .img .album {
+      position: relative; }
+      #bodybox #body .section .detail .information .img .album .show {
+        position: relative;
+        width: 500px;
+        height: 500px; }
+        #bodybox #body .section .detail .information .img .album .show a img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 500px;
+          height: 500px;
+          display: none; }
+        #bodybox #body .section .detail .information .img .album .show a img:nth-of-type(10) {
+          width: 166px;
+          height: 166px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          display: block; }
+        #bodybox #body .section .detail .information .img .album .show a .active {
+          display: block; }
+        #bodybox #body .section .detail .information .img .album .show .mark {
+          position: absolute;
+          top: 0;
+          display: none;
+          left: 0;
+          z-index: 9999;
+          width: 250px;
+          height: 250px;
+          opacity: .3;
+          background-color: black; }
+      #bodybox #body .section .detail .information .img .album .bigpic {
+        display: none;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        z-index: 10000;
+        top: 0;
+        left: 600px;
+        overflow: hidden; }
+        #bodybox #body .section .detail .information .img .album .bigpic img {
+          position: relative;
+          width: 1000px;
+          height: 1000px;
+          display: none; }
+        #bodybox #body .section .detail .information .img .album .bigpic .active {
+          display: block; }
+      #bodybox #body .section .detail .information .img .album .save {
+        margin-top: 10px;
+        width: 100%;
+        position: relative;
+        clear: left; }
+        #bodybox #body .section .detail .information .img .album .save .left, #bodybox #body .section .detail .information .img .album .save .right {
+          width: 50px;
+          height: 100px;
+          line-height: 100px;
+          margin-top: 0;
+          position: absolute;
+          top: 0;
+          text-align: center;
+          border-radius: 8px; }
+          #bodybox #body .section .detail .information .img .album .save .left .iconfont, #bodybox #body .section .detail .information .img .album .save .right .iconfont {
+            font-size: 24px; }
+          #bodybox #body .section .detail .information .img .album .save .left .icon-xiangyou1, #bodybox #body .section .detail .information .img .album .save .right .icon-xiangyou1 {
+            color: #ccc; }
+        #bodybox #body .section .detail .information .img .album .save .left {
+          left: 0; }
+          #bodybox #body .section .detail .information .img .album .save .left a {
+            cursor: default; }
+        #bodybox #body .section .detail .information .img .album .save .right {
+          right: 0; }
+          #bodybox #body .section .detail .information .img .album .save .right a {
+            color: #4c4c4c; }
+        #bodybox #body .section .detail .information .img .album .save .body {
+          width: 400px;
+          margin: 0 50px;
+          height: 91px;
+          padding-top: 5px;
+          overflow: hidden; }
+          #bodybox #body .section .detail .information .img .album .save .body ul {
+            position: relative;
+            width: 1000px; }
+            #bodybox #body .section .detail .information .img .album .save .body ul li {
+              margin: 0 4px;
+              float: left;
+              width: 88px;
+              height: 88px;
+              padding: 0 2px 2px; }
+              #bodybox #body .section .detail .information .img .album .save .body ul li img {
+                width: 88px;
+                height: 88px; }
+            #bodybox #body .section .detail .information .img .album .save .body ul .active {
+              border-bottom: 1px solid #00a8ff; }
+    #bodybox #body .section .detail .information .img .recommend {
+      text-align: right;
+      font-size: 14px;
+      color: #262626;
+      margin-top: 15px; }
+      #bodybox #body .section .detail .information .img .recommend a {
+        line-height: 24px;
+        display: inline-block; }
+        #bodybox #body .section .detail .information .img .recommend a i {
+          float: left;
+          margin-top: 3px;
+          padding-left: 25px;
+          height: 17px;
+          background: url(../img/detail/ia_600000137.png) 0 0 no-repeat; }
+      #bodybox #body .section .detail .information .img .recommend span {
+        width: 100px;
+        color: #262626;
+        height: 24px;
+        text-align: right;
+        display: inline-block; }
+        #bodybox #body .section .detail .information .img .recommend span i {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          margin-right: 4px;
+          background: url(../img/detail/ia_400000135.png);
+          background-size: 16px 16px;
+          vertical-align: middle; }
+    #bodybox #body .section .detail .information .img .comment {
+      margin-top: 40px;
+      margin-bottom: 100px;
+      padding-left: 20px;
+      background-color: #f7f7f7;
+      overflow: hidden; }
+      #bodybox #body .section .detail .information .img .comment .satisfy {
+        font-size: 58px;
+        margin-top: 5px;
+        color: #02A8FD; }
+        #bodybox #body .section .detail .information .img .comment .satisfy i {
+          font-size: 38px; }
+        #bodybox #body .section .detail .information .img .comment .satisfy span {
+          font-size: 18px;
+          color: #808080;
+          margin-left: 15px; }
+      #bodybox #body .section .detail .information .img .comment .show {
+        margin-top: 5px;
+        font-size: 11pt;
+        height: 75px;
+        overflow: hidden;
+        color: #666; }
+        #bodybox #body .section .detail .information .img .comment .show ul li {
+          height: 75px; }
+          #bodybox #body .section .detail .information .img .comment .show ul li img {
+            width: 55px;
+            height: 55px;
+            float: left;
+            border-radius: 50%;
+            border: 1px solid #eee; }
+          #bodybox #body .section .detail .information .img .comment .show ul li div {
+            float: left;
+            margin-left: 15px;
+            position: relative;
+            width: 380px; }
+            #bodybox #body .section .detail .information .img .comment .show ul li div i {
+              font-size: 15px;
+              color: #dddddd; }
+            #bodybox #body .section .detail .information .img .comment .show ul li div .icon-shuangyinhao1 {
+              position: absolute;
+              top: 0; }
+            #bodybox #body .section .detail .information .img .comment .show ul li div .icon-shuangyinhao {
+              position: absolute;
+              bottom: 0;
+              right: 0; }
+            #bodybox #body .section .detail .information .img .comment .show ul li div span {
+              color: #404040;
+              margin: 5px;
+              display: inline-block;
+              margin-left: 20px; }
+  #bodybox #body .section .detail .information .main {
+    height: 1399px;
+    width: 706px;
+    float: right; }
+    #bodybox #body .section .detail .information .main .title {
+      padding-bottom: 10px; }
+      #bodybox #body .section .detail .information .main .title h1 {
+        font-size: 24px;
+        color: #262626;
+        line-height: 36px;
+        font-weight: normal; }
+      #bodybox #body .section .detail .information .main .title h3 {
+        font-size: 16.38px;
+        color: #666666;
+        font-weight: normal;
+        height: 29px;
+        line-height: 29px; }
+      #bodybox #body .section .detail .information .main .title a {
+        font-size: 18px;
+        color: #f00;
+        height: 64px;
+        line-height: 32px; }
+    #bodybox #body .section .detail .information .main .content .time {
+      height: 30px;
+      line-height: 30px;
+      background-color: #d52151;
+      color: #fff;
+      padding: 0 15px; }
+      #bodybox #body .section .detail .information .main .content .time .left {
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px; }
+      #bodybox #body .section .detail .information .main .content .time .right {
+        float: right;
+        font-size: 14px;
+        line-height: 33px; }
+        #bodybox #body .section .detail .information .main .content .time .right i {
+          background-color: #000;
+          font-size: 18px;
+          width: 24px;
+          height: 24px;
+          text-align: center;
+          line-height: 24px;
+          display: inline-block;
+          margin-top: 3px;
+          border-radius: 5px;
+          margin-left: 5px;
+          margin-right: 2px;
+          border: 1px solid #0e0e0e;
+          background-image: linear-gradient(#5c5c5c, #0e0e0e); }
+    #bodybox #body .section .detail .information .main .content .price {
+      background-color: #f7f7f7;
+      padding: 15px 15px; }
+      #bodybox #body .section .detail .information .main .content .price .price_now {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 5px; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .top span:nth-of-type(1) {
+          font-size: 18px;
+          color: #262626;
+          line-height: 36px;
+          float: left; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .top b {
+          font-size: 30px;
+          color: red;
+          line-height: 40px;
+          margin-left: 55px;
+          float: left; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .top span:nth-of-type(3) {
+          float: right;
+          margin-right: 45px;
+          margin-left: 24px;
+          font-size: 14px;
+          line-height: 20px; }
+          #bodybox #body .section .detail .information .main .content .price .price_now .top span:nth-of-type(3) a {
+            color: #518eb4; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .top span:nth-of-type(2) {
+          font-size: 14px;
+          line-height: 20px;
+          float: right; }
+          #bodybox #body .section .detail .information .main .content .price .price_now .top span:nth-of-type(2) i {
+            color: #d52151; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .bottom span {
+          font-size: 18px;
+          color: #262626;
+          float: left;
+          line-height: 40px; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .bottom span:nth-of-type(2) {
+          color: #595959;
+          font-size: 24px;
+          line-height: 36px;
+          margin-left: 55px; }
+        #bodybox #body .section .detail .information .main .content .price .price_now .bottom ins {
+          color: #6f6f6f;
+          font-size: 18px;
+          text-decoration: line-through;
+          line-height: 40px;
+          margin-left: 15px; }
+      #bodybox #body .section .detail .information .main .content .price .arch .top p:nth-of-type(1) {
+        font-size: 18px;
+        color: #262626;
+        float: left;
+        line-height: 36px; }
+      #bodybox #body .section .detail .information .main .content .price .arch .top p:nth-of-type(2) {
+        float: left;
+        line-height: 20px;
+        background-color: #fe0100;
+        color: #fff;
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 7px;
+        margin-right: 14px;
+        margin-left: 19px; }
+      #bodybox #body .section .detail .information .main .content .price .arch .top .iconfont {
+        color: #fff;
+        background-color: #00a8ff;
+        margin-top: 8px;
+        width: 16px;
+        height: 16px;
+        text-align: left;
+        line-height: 16px;
+        border: 1px solid #00a8ff;
+        float: left;
+        border-radius: 5px;
+        position: relative; }
+      #bodybox #body .section .detail .information .main .content .price .arch .top li {
+        float: left;
+        margin-left: 5px; }
+        #bodybox #body .section .detail .information .main .content .price .arch .top li img {
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          vertical-align: middle; }
+        #bodybox #body .section .detail .information .main .content .price .arch .top li span {
+          color: red;
+          font-size: 14px;
+          line-height: 35px; }
+      #bodybox #body .section .detail .information .main .content .price .arch .top p {
+        float: right;
+        line-height: 32px;
+        font-size: 14px;
+        color: #666666; }
+        #bodybox #body .section .detail .information .main .content .price .arch .top p span {
+          color: red; }
+        #bodybox #body .section .detail .information .main .content .price .arch .top p i {
+          display: inline-block;
+          background: url(../img/list/ia_600000138.png);
+          width: 16px;
+          height: 17px;
+          background-position: 05px 8px;
+          background-size: 16px 430px; }
+      #bodybox #body .section .detail .information .main .content .price .arch .bottom {
+        line-height: 36px;
+        margin-left: 91px; }
+        #bodybox #body .section .detail .information .main .content .price .arch .bottom span:nth-of-type(1) {
+          border-radius: 5px;
+          background-color: #f00;
+          line-height: 20px;
+          padding-left: 5px;
+          padding-right: 5px;
+          color: #fff;
+          font-size: 14px; }
+        #bodybox #body .section .detail .information .main .content .price .arch .bottom span:nth-of-type(2) {
+          color: #666666;
+          font-size: 14px; }
+    #bodybox #body .section .detail .information .main .content .vip {
+      width: 710px;
+      height: 91px;
+      margin: 10px 0; }
+      #bodybox #body .section .detail .information .main .content .vip img {
+        width: 726px;
+        margin-left: -10px; }
+    #bodybox #body .section .detail .information .main .content .content_buy .parameter .video_card {
+      margin-bottom: 6px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .video_card span {
+        font-size: 18px;
+        color: #262626; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .video_card li {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        height: 33px;
+        line-height: 33px;
+        cursor: pointer;
+        overflow: hidden;
+        float: left;
+        margin-right: 6px;
+        margin-bottom: 4px; }
+        #bodybox #body .section .detail .information .main .content .content_buy .parameter .video_card li a {
+          padding: 0 16px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .video_card li:nth-of-type(1) {
+        border: 1px solid #00a8ff; }
+    #bodybox #body .section .detail .information .main .content .content_buy .parameter .config {
+      margin-bottom: 6px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .config span {
+        font-size: 18px;
+        color: #262626; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        height: 33px;
+        line-height: 33px;
+        cursor: pointer;
+        overflow: hidden;
+        float: left;
+        margin-right: 6px;
+        margin-bottom: 4px; }
+        #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li a {
+          padding: 0 16px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(1) {
+        border: 1px solid #00a8ff; }
+      #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(4), #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(5), #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(6) {
+        border: 1px dashed #e1e1e1; }
+        #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(4) a, #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(5) a, #bodybox #body .section .detail .information .main .content .content_buy .parameter .config li:nth-of-type(6) a {
+          color: #b9b9b9; }
+    #bodybox #body .section .detail .information .main .content .content_buy .indent .number {
+      margin-bottom: 20px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .number span {
+        font-size: 18px;
+        color: #262626;
+        line-height: 24px;
+        display: inline-block; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .number div {
+        margin-top: 5px; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .number div a {
+          position: relative;
+          display: inline-block;
+          color: #747474;
+          background-color: #fff;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          width: 35px;
+          height: 36px;
+          line-height: 36px;
+          font-size: 18px;
+          border: 1px solid #a9a9a9;
+          vertical-align: middle;
+          text-align: center;
+          z-index: 3; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .number div input {
+          height: 36px;
+          line-height: 36px;
+          width: 60px;
+          padding: 0;
+          margin: 0;
+          color: #747474;
+          vertical-align: middle;
+          border-width: 1px 0;
+          border-color: #a9a9a9;
+          text-align: center;
+          border-style: solid;
+          position: relative;
+          left: -5px;
+          z-index: 2; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .number div a:nth-of-type(2) {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+          position: relative;
+          left: -10px; }
+    #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type {
+      color: #666666;
+      line-height: 19px;
+      font-size: 14px; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li {
+        margin-bottom: 10px; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li .iconfont {
+          border-radius: 5px;
+          background-color: white;
+          color: #00a8ff; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li span {
+          margin-right: 18px; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li span:nth-of-type(1) {
+          margin: 0; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li:nth-of-type(3) span:nth-of-type(2) {
+        margin: 0; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .pay_type li:nth-of-type(6) {
+        color: #ff0000; }
+    #bodybox #body .section .detail .information .main .content .content_buy .indent .submit_order {
+      margin: 100px 0; }
+      #bodybox #body .section .detail .information .main .content .content_buy .indent .submit_order button {
+        background-color: #00a8ff;
+        height: 40px;
+        line-height: 40px;
+        width: 238px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none; }
+        #bodybox #body .section .detail .information .main .content .content_buy .indent .submit_order button a {
+          color: #fff; }
+  #bodybox #body .section .detail .flow {
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin-bottom: 40px; }
+    #bodybox #body .section .detail .flow .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00a8ff;
+      display: inline-block;
+      padding: 20px 40px 20px 0; }
+    #bodybox #body .section .detail .flow div {
+      display: inline-block;
+      width: 408px; }
+      #bodybox #body .section .detail .flow div img {
+        display: inline-block; }
+      #bodybox #body .section .detail .flow div p {
+        display: inline-block;
+        position: relative;
+        top: -10px; }
+        #bodybox #body .section .detail .flow div p span {
+          display: block; }
+        #bodybox #body .section .detail .flow div p span:nth-of-type(1) {
+          color: #00a8ff;
+          line-height: 21px; }
+        #bodybox #body .section .detail .flow div p span:nth-of-type(2) {
+          font-size: 14px;
+          line-height: 18px; }
+    #bodybox #body .section .detail .flow div:nth-of-type(3) {
+      width: 259px; }
+  #bodybox #body .section .detail .buy {
+    width: 1226px;
+    margin: 10px 0; }
+    #bodybox #body .section .detail .buy .title {
+      height: 32px; }
+      #bodybox #body .section .detail .buy .title h2 {
+        font-size: 18px;
+        height: 18px;
+        line-height: 20px;
+        padding-left: 7px;
+        border-left: 2px solid #00a8ff;
+        margin-right: 20px;
+        color: #555;
+        font-weight: normal; }
+    #bodybox #body .section .detail .buy form .top {
+      padding: 20px 5px;
+      border-bottom: 1px solid #ccc; }
+      #bodybox #body .section .detail .buy form .top .img {
+        float: left; }
+        #bodybox #body .section .detail .buy form .top .img img {
+          width: 120px;
+          height: 120px; }
+      #bodybox #body .section .detail .buy form .top .describe {
+        float: left; }
+        #bodybox #body .section .detail .buy form .top .describe span:nth-of-type(1) {
+          color: #333333;
+          font-size: 14px;
+          line-height: 18px;
+          padding: 10px 0;
+          display: block; }
+        #bodybox #body .section .detail .buy form .top .describe span:nth-of-type(2) {
+          display: block;
+          color: red;
+          font-size: 16px;
+          line-height: 21px;
+          padding: 8px 0 10px 0; }
+        #bodybox #body .section .detail .buy form .top .describe div select {
+          width: 90px;
+          border-width: 1px;
+          border-color: #ccc; }
+        #bodybox #body .section .detail .buy form .top .describe div button {
+          width: 22px;
+          height: 22px;
+          line-height: 22px;
+          border: 1px solid #ccc;
+          background-color: white;
+          text-align: center;
+          margin: 0;
+          padding: 0; }
+        #bodybox #body .section .detail .buy form .top .describe div input {
+          border-color: #ccc;
+          border-width: 1px;
+          border-style: solid;
+          border-left: none;
+          border-right: none;
+          text-align: center;
+          position: relative;
+          left: -5px;
+          top: -1px;
+          height: 20px;
+          line-height: 20px;
+          padding: 0;
+          margin: 0; }
+        #bodybox #body .section .detail .buy form .top .describe div button:nth-of-type(2) {
+          position: relative;
+          left: -10px; }
+    #bodybox #body .section .detail .buy form .bottom {
+      padding: 5px; }
+      #bodybox #body .section .detail .buy form .bottom .footing {
+        margin-bottom: 10px;
+        text-align: right; }
+        #bodybox #body .section .detail .buy form .bottom .footing span:nth-of-type(1) {
+          line-height: 55px;
+          font-size: 18px;
+          color: #262626;
+          position: relative;
+          top: -5px; }
+          #bodybox #body .section .detail .buy form .bottom .footing span:nth-of-type(1) i {
+            font-weight: bolder; }
+        #bodybox #body .section .detail .buy form .bottom .footing span:nth-of-type(2) {
+          font-size: 24px;
+          line-height: 58px;
+          color: #262626;
+          margin-left: 36px; }
+        #bodybox #body .section .detail .buy form .bottom .footing span:nth-of-type(3) {
+          font-size: 30px;
+          color: red; }
+      #bodybox #body .section .detail .buy form .bottom .put_in button {
+        cursor: pointer;
+        float: right;
+        width: 230px;
+        height: 48px;
+        border-radius: 5px;
+        background-color: #00a8ff;
+        border: none; }
+        #bodybox #body .section .detail .buy form .bottom .put_in button a {
+          color: #fff;
+          font-size: 18px; }
+
+#bodybox #body .section .img .tags {
+  width: 1226px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; }
+  #bodybox #body .section .img .tags h2 {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    padding: 15px 0;
+    border: none;
+    margin-right: 0;
+    border-bottom: 0px solid #ccc;
+    position: relative;
+    background-color: #fff;
+    font-weight: 400;
+    float: left;
+    top: 1px; }
+    #bodybox #body .section .img .tags h2 a {
+      color: #666;
+      font-size: 18px;
+      padding: 2px 30px;
+      border: 1px solid #fff;
+      display: block; }
+  #bodybox #body .section .img .tags h2:nth-of-type(1) {
+    border-bottom: 1px solid #00a8ff; }
+    #bodybox #body .section .img .tags h2:nth-of-type(1) a {
+      color: #00a8ff; }
+
+#bodybox #body .section .img .img_page {
+  padding-top: 20px;
+  padding-bottom: 55px;
+  background-color: #eee; }
+  #bodybox #body .section .img .img_page .detail {
+    width: 1186px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px; }
+    #bodybox #body .section .img .img_page .detail img {
+      width: 200px;
+      height: 200px;
+      float: left; }
+    #bodybox #body .section .img .img_page .detail ul {
+      width: 956px;
+      float: left;
+      font-size: 16px;
+      padding: 10px 15px; }
+      #bodybox #body .section .img .img_page .detail ul li {
+        line-height: 30px;
+        margin-bottom: 10px;
+        float: left;
+        width: 33.3%;
+        color: #666666; }
+  #bodybox #body .section .img .img_page .list {
+    width: 1226px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    #bodybox #body .section .img .img_page .list .left {
+      float: left;
+      vertical-align: top;
+      width: 295px;
+      background-color: white;
+      height: 754px; }
+      #bodybox #body .section .img .img_page .list .left div {
+        width: 100%;
+        height: 584px;
+        text-align: center;
+        margin-bottom: 10px; }
+        #bodybox #body .section .img .img_page .list .left div img {
+          padding-top: 144px;
+          width: 100%; }
+      #bodybox #body .section .img .img_page .list .left p:nth-of-type(1) {
+        padding: 0 10px;
+        font-size: 14px;
+        color: #333;
+        line-height: 24px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      #bodybox #body .section .img .img_page .list .left p:nth-of-type(2) {
+        color: #979797;
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      #bodybox #body .section .img .img_page .list .left p:nth-of-type(3) {
+        font-size: 24px;
+        color: #f00;
+        font-weight: normal;
+        line-height: 1;
+        margin: 8px 0 16px;
+        padding: 0 10px;
+        text-align: center; }
+      #bodybox #body .section .img .img_page .list .left a {
+        display: block;
+        width: 170px;
+        height: 48px;
+        line-height: 48px;
+        background: #00a8ff;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        margin: 0 auto; }
+    #bodybox #body .section .img .img_page .list .right {
+      float: left;
+      width: 295px;
+      vertical-align: top;
+      margin-left: 14px;
+      margin-bottom: 14px; }
+      #bodybox #body .section .img .img_page .list .right div {
+        display: inline-block;
+        vertical-align: top;
+        width: 296px;
+        height: 370px;
+        background: #fff; }
+        #bodybox #body .section .img .img_page .list .right div img {
+          display: block;
+          width: 180px;
+          height: 180px;
+          margin: 20px auto 10px; }
+        #bodybox #body .section .img .img_page .list .right div p:nth-of-type(1) {
+          padding: 0 10px;
+          font-size: 14px;
+          color: #333;
+          line-height: 24px;
+          text-align: center;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #bodybox #body .section .img .img_page .list .right div p:nth-of-type(2) {
+          color: #979797;
+          padding: 0 10px;
+          font-size: 14px;
+          line-height: 24px;
+          text-align: center;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #bodybox #body .section .img .img_page .list .right div p:nth-of-type(3) {
+          font-size: 24px;
+          color: #f00;
+          font-weight: normal;
+          line-height: 1;
+          margin: 8px 0 16px;
+          padding: 0 10px;
+          text-align: center; }
+        #bodybox #body .section .img .img_page .list .right div a {
+          display: block;
+          width: 170px;
+          height: 48px;
+          line-height: 48px;
+          background: #00a8ff;
+          font-size: 16px;
+          color: #fff;
+          text-align: center;
+          border-radius: 5px;
+          margin: 0 auto; }
+  #bodybox #body .section .img .img_page .zeroborder {
+    margin: 0 auto;
+    width: 1226px; }
+    #bodybox #body .section .img .img_page .zeroborder a {
+      float: left; }
+  #bodybox #body .section .img .img_page .img_main {
+    width: 1226px;
+    margin: 0 auto; }
+  #bodybox #body .section .img .img_page .guide {
+    width: 1226px;
+    margin: 0 auto; }
+
+#bodybox #body .section .push {
+  width: 1226px;
+  margin: 0 auto; }
+  #bodybox #body .section .push .top {
+    margin: 30px 0 12px 0;
+    position: relative; }
+    #bodybox #body .section .push .top .left h1 {
+      font-size: 24px;
+      color: #4f4f4f;
+      height: 40px;
+      line-height: 40px;
+      font-weight: normal; }
+      #bodybox #body .section .push .top .left h1 i {
+        border-left: 2px solid #00a8ff;
+        display: inline-block;
+        height: 24px;
+        margin-right: 14px;
+        vertical-align: -4px; }
+    #bodybox #body .section .push .top .button {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      font-size: 0;
+      border: 1px solid #ccc; }
+      #bodybox #body .section .push .top .button span {
+        color: #939393;
+        font-size: 12px;
+        display: inline-block;
+        width: 28px;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        cursor: pointer; }
+        #bodybox #body .section .push .top .button span .iconfont {
+          color: #eee;
+          font-size: 18px; }
+        #bodybox #body .section .push .top .button span .iconfont.icon-xiangyou1 {
+          font-size: 20px;
+          position: relative;
+          top: 2px; }
+      #bodybox #body .section .push .top .button span:nth-of-type(1) {
+        border-right: 1px solid #ccc; }
+      #bodybox #body .section .push .top .button .okay .iconfont {
+        color: #bbb; }
+  #bodybox #body .section .push .bottom {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 28px;
+    height: 330px; }
+    #bodybox #body .section .push .bottom ul {
+      width: 3224px;
+      margin-left: 1px;
+      position: absolute; }
+      #bodybox #body .section .push .bottom ul li {
+        float: left;
+        width: 234px;
+        height: 300px;
+        margin-right: 14px;
+        margin-bottom: 14px;
+        background: #fff;
+        cursor: pointer; }
+        #bodybox #body .section .push .bottom ul li img {
+          width: 205px;
+          height: 205px;
+          display: block;
+          margin: 10px auto 15px; }
+        #bodybox #body .section .push .bottom ul li p {
+          font-size: 14px;
+          padding: 0 18px;
+          line-height: 20px;
+          height: 22px;
+          overflow: hidden;
+          text-align: center; }
+        #bodybox #body .section .push .bottom ul li p:nth-of-type(1) {
+          color: #434343; }
+        #bodybox #body .section .push .bottom ul li p:nth-of-type(2) {
+          color: #898989; }
+        #bodybox #body .section .push .bottom ul li p:nth-of-type(3) {
+          color: #fc0100;
+          line-height: 24px; }
+
+#footer .footer {
+  width: 100%;
+  background-color: #fafafa; }
+  #footer .footer .service_border {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 44px;
+    padding-top: 18px; }
+    #footer .footer .service_border .service {
+      width: 1338px;
+      padding-right: 65px;
+      margin: 0 auto; }
+      #footer .footer .service_border .service ul {
+        width: 1338px;
+        padding-right: 65px;
+        margin: 0 auto; }
+        #footer .footer .service_border .service ul li {
+          width: 264px;
+          float: left;
+          height: 28px;
+          border-right: 1px solid #ccc;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #footer .footer .service_border .service ul li div {
+            width: 30px;
+            height: 28px;
+            overflow: hidden; }
+          #footer .footer .service_border .service ul li p {
+            font-size: 14px;
+            color: #666666; }
+        #footer .footer .service_border .service ul li:nth-of-type(3) img {
+          margin-top: -59px; }
+        #footer .footer .service_border .service ul li:nth-of-type(4) img {
+          margin-top: -92px; }
+        #footer .footer .service_border .service ul li:nth-of-type(5) {
+          border: none; }
+          #footer .footer .service_border .service ul li:nth-of-type(5) img {
+            margin-top: -122px; }
+  #footer .footer .helper {
+    padding-top: 30px;
+    padding-bottom: 60px; }
+    #footer .footer .helper .heart {
+      width: 1226px;
+      margin: 0 auto; }
+      #footer .footer .helper .heart div {
+        width: 194px;
+        margin-right: 50px;
+        float: left; }
+        #footer .footer .helper .heart div dt {
+          font-size: 15px;
+          font-weight: 600;
+          margin-bottom: 5px;
+          line-height: 24px; }
+          #footer .footer .helper .heart div dt a {
+            color: #2D2D2D; }
+          #footer .footer .helper .heart div dt a:hover {
+            color: #00a8ff; }
+        #footer .footer .helper .heart div dd {
+          line-height: 24px;
+          font-size: 14px; }
+          #footer .footer .helper .heart div dd a {
+            color: #333333; }
+          #footer .footer .helper .heart div dd a:hover {
+            color: #00a8ff; }
+      #footer .footer .helper .heart .area1 {
+        width: 183px;
+        margin-right: 10px; }
+      #footer .footer .helper .heart .area5 {
+        width: 284px;
+        text-align: center;
+        margin-right: 0; }
+        #footer .footer .helper .heart .area5 p:nth-of-type(1) {
+          font-size: 30px;
+          font-weight: 600;
+          color: #333; }
+        #footer .footer .helper .heart .area5 p:nth-of-type(2) {
+          font-size: 14px;
+          color: #333333; }
+        #footer .footer .helper .heart .area5 img {
+          width: 209px;
+          height: 209px;
+          vertical-align: middle;
+          display: inline-block; }
+        #footer .footer .helper .heart .area5 p:nth-of-type(3) {
+          width: 150px;
+          height: 32px;
+          line-height: 32px;
+          background-color: #333333;
+          font-size: 14px;
+          color: #ffffff;
+          border-radius: 16px;
+          margin: 0 auto; }
+  #footer .footer .info {
+    background-color: white;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+    padding-top: 45px;
+    font-size: 14px; }
+    #footer .footer .info p:nth-of-type(1) {
+      text-align: center;
+      color: #666666; }
+    #footer .footer .info p:nth-of-type(2) {
+      text-align: center;
+      color: #666666; }
+      #footer .footer .info p:nth-of-type(2) a {
+        color: #333333; }
+      #footer .footer .info p:nth-of-type(2) a:hover {
+        color: #00a8ff; }
+    #footer .footer .info p:nth-of-type(3) {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px 0;
+      text-align: center;
+      height: 20px;
+      line-height: 20px; }
+      #footer .footer .info p:nth-of-type(3) img {
+        display: inline-block;
+        vertical-align: middle; }
+      #footer .footer .info p:nth-of-type(3) a {
+        color: #333333; }
+      #footer .footer .info p:nth-of-type(3) a:hover {
+        color: #00a8ff; }

@@ -1,0 +1,21 @@
+require.config({
+    paths:{
+        jquery:'jquery-1.11.3',
+        data:'data',
+        glass:'glass',
+        'jquery-cookie':'jquery.cookie',
+        a_event:'a_event',
+        goinShop:'goinShop',
+    },
+    shim:{
+        "jquery-cookie":['jquery']
+    }
+})
+
+require(['data','glass','a_event','goinShop'],function(data,glass,a_event,goinShop){
+    glass.magnifying()
+    glass.save()
+    data.download_detail()
+    a_event.a_event()
+    goinShop.number_goods()
+})
